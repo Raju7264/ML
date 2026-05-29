@@ -20,7 +20,7 @@ st.set_page_config(
 # =========================
 # LOAD MODEL
 # =========================
-model = joblib.load("Model.pkl")
+model = joblib.load("model_compressed.pkl")
 
 # =========================
 # SESSION STATE
